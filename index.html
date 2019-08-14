@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>ES2017で作るスライドショー</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <section class="main-image-container">
+      <img id="main-image">
+    </section>
+
+    <nav class="controls">
+      <div class="controls__button controls__button--wide" id="play">Play</div>
+      <div class="controls__button controls__button--wide controls__button--hidden" id="pause">Pause</div>
+      <div class="controls__button" id="prev">&lt;</div>
+      <div class="controls__button" id="next">&gt;</div>
+    </nav>
+
+    <ul class="thumbnails">
+    </ul>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
